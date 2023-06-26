@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+    color: white;
+}
+body{
+    background-image: url(tlo.png);
+}
+
+header{
+    display: flex;
+    gap: 2vw;
+    padding: 0vh 10vw;
+    text-transform: uppercase;
+    height: 15vh;
+    align-items: center;
+}
+main{
+    padding: 0vh 10vw;
+    display: flex;
+    height: 85vh;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vh;
+    .title{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding-top: 6vh;
+        gap: 2vh;
+        width: 50%;
+        h1{
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 12vh;
+        }
+        h4{
+            text-transform: uppercase;
+
+        }
+        .zapisy{
+            button{
+                background-color: rgb(255, 255, 255);
+                outline: 0;
+                border: 1px solid black;
+                width: 10vw;
+                height: 4vh;
+                text-transform: uppercase;
+                border-radius: 2px;
+                color: black;
+                a{
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .right{
+        background-image: url(right.png);
+        width: 50%;
+        height: 100%;
+        background-position: center;
+    }
+    
+}
+.about{
+    background-color: white;
+    padding: 0vh 10vw;
+    display: flex;
+    align-items: center;
+    p{
+        width: 50%;
+    }
+    .photos{
+        height: 50vh;
+        display: flex;
+        width: 50%;
+        gap: 2vw;
+        align-items: center;
+        .card{
+            width: 50%;
+            background-color: black;
+            height: 40vh
+        }
+    }
+}
